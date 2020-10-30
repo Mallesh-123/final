@@ -20,6 +20,7 @@ public class helloWorld {
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			driver.get("http://www.google.com");
+			System.out.println("hello mallesh");
 		}
 
 	}
